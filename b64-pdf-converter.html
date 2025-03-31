@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Base64 para PDF</title>
+    <script src="b64-pdf-converter.js"></script>
+    <link rel="stylesheet" type="text/css" href="b64-pdf-converter.css" />
+  </head>
+  <body>
+    <div class="cont" id="conv">
+      <div class="group">
+        <input
+          id="inp"
+          class="input"
+          type="text"
+          placeholder="Base64"
+          name="searchbar"
+        />
+      </div>
+      <div>
+        <button onclick="converterParaPDF()" class="button">
+          <span class="text_button">Converter para PDF</span>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
